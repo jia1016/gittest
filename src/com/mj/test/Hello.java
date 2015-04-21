@@ -9,4 +9,16 @@ public class Hello {
 		System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 	}
 
+	public String sayYes() {
+		return "Yes!";
+	}
+
+	public boolean hello(String word) {
+		if (word.equals("Hi")) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 }
